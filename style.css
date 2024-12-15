@@ -1,0 +1,97 @@
+/* I made the background color a really dark shade of purple and used pink for all of the list items and headings.*/
+
+body {
+    background-color:rgb(28, 4, 31);
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(216, 165, 238);
+    
+    text-align:center;
+
+}
+
+
+
+h1{
+    color: rgb(233, 131, 244);
+}
+
+
+h3{
+    font-style:italic;
+    text-color: rgb(145, 22, 211);
+    background-color: none;
+    width:100%;
+    padding:5px;
+    text-align:center;
+}
+
+/* I made the biggest table I could make. */
+
+table{
+    width: 100%;
+    height: 70px;
+
+}
+
+/* For the table header I used a pink background color. I also rounded the corners on it.*/
+
+th{
+    background-color: rgb(202, 137, 237);
+    border-radius: 10px;
+    border-color: rgb(224, 217, 227);
+    width: 100%;
+    height: 80px;
+}
+
+/* For the table body I used a light purple background and I made it so when you hover over each row, it makes the background color go dark.*/
+
+tr{
+    background-color:rgb(133, 25, 184);
+    text-align: center;
+    width:100%;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* List items in the biggest font possible.*/
+
+li{
+    font-size: xx-large;
+}
+
+tbody tr:hover{
+    background-color:rgb(42, 2, 53);
+}
+
+/* I gave the button at the bottom of the page a purple background*/
+
+
+button{
+    background-color: rgb(124, 9, 156);
+    color: rgb(241, 234, 234);
+    border: none;
+    height: 55px;
+    width:120px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 1s,
+    color
+}
+
+/* I made a text box for the user to enter in the name of their favorite one. */
+
+input[type=text]{
+    width:50%;
+    height:50px;
+}
+
+/* I made the list items the maximum size possible. */
+form{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
